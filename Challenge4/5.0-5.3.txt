@@ -1,0 +1,21 @@
+-Clock
+
+setInterval(function, time) : 
+ 실행하고 싶은 함수 function 을 time 마다 실행시킴
+
+setTimeout(function, time) : 
+ time 후에 실행하려는 함수 function을 실행해줌
+
+const date =new Date()	//현재 시간 반환해줌
+
+date.getHours : 시간 반환
+
+date.getMinutes : 분 반환
+
+date.getSeconds : 초 반환
+
+
+.padStart( ) 메서드 :
+
+str.padStart(num, char) : str이 num보다 자릿수가 적으면,
+앞에 빈 자리를 char로 채워준다.
